@@ -49,7 +49,7 @@ const app = express();
 
             const options = {
                 method: "POST",
-                auth: "covstar:1bebbcff13befc5ca61a2c186a3ce9f8-us14" 
+                auth: "covstar:7e513cbea61e09ceec02361c689a155c-us14" 
                 
             }
             
