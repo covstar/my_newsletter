@@ -8,9 +8,13 @@
     <meta name="generator" content="Hugo 0.108.0">
     <title>Newsletter Signup</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
 
-    
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
+   
+    <link rel="stylesheet" href="/output.css">
+
+      <!-- Custom styles for this template -->
+      <link href="css/style.css" rel="stylesheet">
 
     
 
@@ -19,15 +23,14 @@
         <meta name="theme-color" content="#712cf9">
 
 
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
+  
   </head>
-  <body class="text-center">
+  <body class="text-center sm:h-screen">
     
-<main class="form-signin w-100 m-auto">
+<main class="form-signin mx-auto md:mt-10% sm:mt-20%">
   <form action="/" method="post">
-    <img class="mb-4" src="./images/covstar-logo.png" alt="" width="150" height="57">
-    <h1 class="h5 mb-3 fw-normal">Sign Up to My Newsletter</h1>
+    <img class=" mx-auto sm:mb-20% md:mb-20%" src="./images/covstar-logo.png" alt="" width="150" height="57">
+    <h1 class="text-lg md:mb-10% sm:mb-10% font-bold">Sign Up to My Newsletter</h1>
 
       <input type="text" class="form-control top" name="firstName"  placeholder="First Name" required autofocus>
       <input type="text" class="form-control middle" name="lastName"  placeholder="Last Name" required>
@@ -35,12 +38,14 @@
       <input type="email" class="form-control bottom" name="email"  placeholder="Email" required>
 
 
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up Now!</button>
-    <p class="mt-2 mb-3 text-muted">&copy; Covstar Designs</p>
+    <button class="w-100 bg-blue-700 text-white py-3 rounded-md font-Lato" type="submit">Sign Up Now!</button>
+    
   </form>
 </main>
 
-
+<footer>
+  <p class="mt-5% sm:mt-15% mb-3 text-muted">&copy; Covstar Designs</p>
+</footer>
     
   </body>
 </html>

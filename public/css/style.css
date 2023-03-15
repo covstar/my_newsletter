@@ -4,7 +4,7 @@ body {
 }
 
 body {
-    display: flex;
+    display: block;
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -21,13 +21,13 @@ body {
 }
 
 .top {
-    margin-bottom: 3px;
+    margin-bottom: 6px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
 .middle{
     border-radius: 0;
-    margin-bottom: 3px;
+    margin-bottom: 6px;
 }
 
 .bottom {
