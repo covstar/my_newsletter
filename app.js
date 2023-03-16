@@ -1,8 +1,8 @@
+require('dotenv').config();
+
 const express = require("express");
 
 const https = require("https");
-
-require('dotenv').config();
 
 const bodyParser = require("body-parser");
 
@@ -49,9 +49,11 @@ const app = express();
 
             const url = "https://us14.api.mailchimp.com/3.0/lists/950d57e5d5";
 
+            
+
             const options = {
                 method: "POST",
-                auth: `covstar:${process.env.MAILCHIMP_API_KEY}`
+                 auth: `covstar:${process.env.API_KEY}`
                 
             }
             

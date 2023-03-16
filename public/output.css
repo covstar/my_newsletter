@@ -625,24 +625,12 @@ video {
     margin-bottom: 20%;
   }
 
-  .sm\:mt-15\%{
-    margin-top: 15%;
-  }
-
   .sm\:mt-20{
     margin-top: 5rem;
   }
 
   .sm\:mt-20\%{
     margin-top: 20%;
-  }
-
-  .sm\:mt-1{
-    margin-top: 0.25rem;
-  }
-
-  .sm\:mt-2{
-    margin-top: 0.5rem;
   }
 
   .sm\:h-screen{
